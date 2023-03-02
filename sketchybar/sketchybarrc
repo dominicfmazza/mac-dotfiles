@@ -68,7 +68,6 @@ source "$ITEM_DIR/battery.sh"
 source "$ITEM_DIR/volume.sh"
 
 # Left
-source "$ITEM_DIR/apple.sh"
 source "$ITEM_DIR/spaces.sh"
 source "$ITEM_DIR/front_app.sh"
 # Forcing all item scripts to run (never do this outside of sketchybarrc)
