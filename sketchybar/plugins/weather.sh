@@ -40,5 +40,5 @@ export TEMPERATURE="$(curl -X GET $URL | jq ".current_weather.temperature")"
 export WEATHERCODE="$(curl -X GET $URL | jq ".current_weather.weathercode")"
 
 echo ${weathercode_selector[$WEATHERCODE]}
-sketchybar --set $NAME icon="${weathercode_selector[$WEATHERCODE]}" label="$TEMPERATURE F"
+sketchybar --set $NAME icon="${weathercode_selector[$WEATHERCODE]}" label="$TEMPERATURE$(echo -e '\u00B0')F"
 
