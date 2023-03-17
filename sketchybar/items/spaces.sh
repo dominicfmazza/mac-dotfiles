@@ -24,7 +24,7 @@ do
     label.background.height=26
     label.background.drawing=on
     label.background.color=$BACKGROUND_2
-    label.background.corner_radius=10
+    label.background.corner_radius=9
     label.drawing=off
     script="$PLUGIN_DIR/space.sh"
   )
@@ -36,7 +36,7 @@ done
 
 spaces=(
   background.color=$BACKGROUND_1
-  background.border_color=$BACKGROUND_2
+  background.border_color=$BACKGROUND_1
   background.border_width=2
   background.drawing=on
 )
